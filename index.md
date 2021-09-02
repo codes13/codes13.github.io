@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Hitesh page
 
 You can use the [editor on GitHub](https://github.com/codes13/codes13.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
