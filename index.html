@@ -1,283 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Hitesh Website || New domain</title>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Hitesh Website || New domain</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
    <meta name="description" content="Hitesh launched web version2.Let's know about hitesh online. Let's explore the web created by Hitesh. Let's look around. Hitesh web on new domain now">
    <meta property="og:image" content="https://i.postimg.cc/fyfCzc2P/photo-1514790193030-c89d266d5a9d.jpg">
 <script data-ad-client="ca-pub-7856156089325406" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<style>
-   *{
-   margin: 0;
-   padding: 0;
-   font-family: 'Poppins', sans-serif;
 
-   }
-   body{
-   height: 100vh;
-   width: 100vw;
-   overflow: hidden;
-   }
-html {
-  width: 100%;
-  height: 100%;
-background-size: 100% 100%;
-background-repeat: no-repeat;
-  background: #7c28dd; /* Old browsers */
-  /* background: linear-gradient(top,  #54dd82 0%, #8200c9 100%); FF3.6-15 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="/videojs.watermalk.css">
+       <link rel="stylesheet" href="/extracss.css">
+       <style>
+         
+*{
+ margin: 0;
+ padding:0;
+ font-family: 'Poppins', sans-serif;
 }
-#canvas{
-height: 100vh;
-background-size: 100% 100%;
-width: 100vw;
-}
-.cont{
-position: absolute;
-height:100vh;
-width:100vw;
-}
-a{
-position:relative;
-display: inline-block;
-padding: 10px 30px;
-text-decoration: none;text-transform: uppercase;
-color:rgba(255,255,255,0.4);
-background:#262c37;
-letter-spacing:2px;
-font-size: 36px;
-transition:0.5s;
-}
-a:hover{
-color:rgba(255,255,255,1);
-}
-a span{
-display: block;
-position:absolute;
-background:#2894ff;
-}
-a span:nth-child(1){
-left: 0;
-bottom:0;
-width: 3px;
-height: 100%;
-transform:scaleY(0);
-transform-origin: top;
-transition:transform 0.5s ;
-}
-a:hover span:nth-child(1){
-   transform:scaleY(1);
-transform-origin: bottom;
-transition:transform 0.5s ;
+.lgo{
+height: 110px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: white;
+border-radius: 14px;
+background: #ffffff;
+box-shadow:  5px 5px 10px #ebebeb,
+             -5px -5px 10px #ffffff;
 
 }
-a span:nth-child(2){
-left: 0;
-bottom:0;
-width: 100%;
-height: 3px;
-transform:scaleY(0);
-transform-origin: right;
-transition:transform 0.5s ;
-}
-a:hover span:nth-child(2){
-   transform:scaleY(1);
-transform-origin: left;
-transition:transform 0.5s ;
-
-}
-a span:nth-child(3){
-right: 0;
-bottom:0;
-width: 3px;
-height: 100%;
-transform:scaleY(0);
-transform-origin: right;
-transition:transform 0.5s ;
-transition-delay:0.5s ;
-}
-a:hover span:nth-child(3){
-   transform:scaleY(1);
-transform-origin: bottom;
-transition:transform 0.5s ;
-transition-delay:0.5s ;
-}
-a span:nth-child(4){
-left: 0;
-top:0;
-width: 100%;
-height: 3px;
-transform:scaleY(0);
-transform-origin: right;
-transition:transform 0.5s ;
-transition-delay:0.5s ;
-}
-a:hover span:nth-child(4){
-   transform:scaleY(1);
-transform-origin: left;
-transition:transform 0.5s ;
-transition-delay:0.5s ;
-}
-.cont{
-text-align:center;
-display:flex;
-align-items:center;
+.task{
+width: 300px;
+margin: 30px;
+height: 220px;
+background: white;
+border: 0.1px solid rgba(0, 0, 0, 0.171);
+border-radius: 10px;
+padding:5px;
+/* dummy background */
+display:flex; align-items:center;
 justify-content:center;
 flex-direction:column;
+transition: 1s;
 }
-.cont h1{
-font-size:100px;
-color:white;
--webkit-text-stroke:0.2px #262c37;}
-@media(max-width:664px){
-.cont h1{
-  font-size:80px ;
-}}
-@media(max-width:488px){
-.cont h1{
-  font-size:60px ;
+.task:hover{
+  /* background: #e0e0e0; */
+box-shadow:  3px 3px 7px 1px #c7c7c7,
+             -3px -3px 7px 1px #f9f9f9;
+
 }
-a{
-  font-size: 30px;
-}}
-@media(max-width:365px){
-.cont h1{
-  font-size:50px ;
+.imgcont img{
+width: 150px;
+
 }
-a{
-  font-size: 20px;
-}}
-</style>
+.cont{
+display: flex;
+margin-top: 10px;
+flex-wrap:wrap;
+align-items:center;
+justify-content: center;
+}
+.cont-hed h1{
+margin-top: 60px;
+text-align: center;
+}
+.starting{
+height:80vh;
+background-color:white;
+flex-wrap: wrap;
+width: 100vw;
+display: flex;align-items:center;justify-content: center;
+}
+.img-start img{
+/* width: 400px; */
+}
+.textcont h1{
+font-size:60px;
+text-align: center;
+}
+.textcont{
+  margin-right: 140px;
+}
+#typed{
+font-size:40px;
+}
+#typed:after{
+content:"_";
+display:inline-block;
+animation: blank 2s infinite;
+}
+@keyframes blank {
+0%{
+opacity:0;
+}
+100%{color:black;
+
+}
+
+}
+.textcont{
+align-items:center;
+text-align: center;
+}
+.starting{
+  margin-top:30px;
+}
+.img-start{
+width: 400px;
+height: 600px;
+background:url('/pitcodes13.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+/* background-attachment: fixed; */
+}
+.starting{
+text-align: center;
+}
+#typed{
+text-align: center;
+}
+.textcont h1{
+text-align: center;
+}
+/* .textcont #typed */
+.helloit{
+text-align: center;
+}
+/* 568 */
+@media (max-width:560px) {
+.textcont h1{
+  font-size:40px;
+}
+.textcont{
+width: 100vw;
+}
+.starting{
+  width: 100vw;text-align:center ;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  /* margin: 0; */
+}
+#typed{
+  font-size:20px
+}
+.textcont{
+  margin-right: 0px;
+}
+}
+@media (max-width:433px) {
+.textcont h1{
+  font-size:30px;
+}
+.img-start{
+  width:300px;
+  height: 400px;
+}
+.starting{
+align-items:center;
+}
+}
+.textct{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+@media (max-width:925px) {
+  .textcont{
+  margin-right: 0px;
+}
+.img-start{
+  width:300px;
+  height: 400px;
+}
+}
+
+       </style>
+        <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
+
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
 </head>
 <body>
-   <div class="cont">
-<h1>Hitesh world</h1>
-<div class="button">
-<a href="">
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-Explore
-</a>
+
+       <!-- <nav class="navbar">
+              <div class="content">
+                <div class="logo">
+                  <a href="#">Hitesh Kumar</a>
+                </div>
+                <ul class="menu-list">
+                  <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                  </div>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                  <i class="fas fa-bars"></i>
+                </div>
+              </div>
+            </nav> -->
+            
+            <!-- <div class="banner"></div> -->
+
+<div class="lgo">
+<img src="/hitesh+WEB.svg" alt="" width="140">
+</div>
+<div class="starting">
+
+<div class="textcont">
+<div class="textct">
+<h1 class="helloit">Hi I am Hitesh</h1>
+<div id="typed-strings">
+  <p>Hitesh Port</p>
+  <p>Welcome here</p>
+  <p>Programmer</p>
+  <p>Learner</p>
+  <p>Web dev</p>
+  <p>Python dev</p>
+  </div>
+  </div>
+  <span id="typed"></span>
+  
+</div>
+<div class="img-start">
+
 </div>
 </div>
-<div id="canvas"></div>
+<div class="cont-hed">
+<h1>What I Provide</h1>
+</div>
+<div class="cont">
+<div class="task task-1">
+  <div class="imgcont">
+    <img src="/videopng.png" alt="">
+  </div>
+<div class="text-cont">
+<h2>Videos</h2>
 
+</div>
+</div>
+<div class="task  task-2">
+  <div class="imgcont">
+  <img src="/project.png" alt="">
+  </div>
+  <div class="text-cont">
+    <h2>Projects</h2>
+    </div>
+    
+</div>
+<div class="task task-3">
+  <div class="imgcont">
+    <img src="/boyimg.png" alt="" width="30">
+  </div>
+  <div class="text-cont">
+    <h2>Blog</h2>
+    </div>
+    
+</div>
+<div class="task task-4">
+  <div class="imgcont">
+    <img src="arts.png" alt="">
+  </div>
+  <div class="text-cont">
+    <h2>More arts</h2>
+    </div>
+    
+</div>
+</div>
+<!-- <div class="about">
+  <video
+  id="videoPlayer"
+  class="video-js vjs-big-play-centered"
+  controls
+  preload="auto"
+  width="640"
+  height="264"
+  poster="MY_VIDEO_POSTER.jpg"
 
+  muted
+>
+  <source src="/Hitesh web.mp4" type="video/mp4" />
+  <source src="/Hitesh web.mp4" type="video/webm" />
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank"
+      >supports HTML5 video</a
+    >
+  </p>
+</video>
+
+</div> -->
+<!-- <br><br> -->
+<div class="skilled">
+  <section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experiences.</div>
+                <p>It's Hitesh. Hm good to study but I am also skilled at technology. I started learning coding not from paid sources, from network like youtube, w3school, etc and Now I am also an expert at that. I am a web dev now. Also means while making webs I need to be good at technology to explore websites, I know q lot about websites because I need so many resources while learning or making, like images, video, etc. Also in the journey of this, I know a lot of things.</p>
+                <a href="#" style="text-decoration: none;">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>PHP</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+            <script>
+              const body = document.querySelector("body");
+              const navbar = document.querySelector(".navbar");
+              const menuBtn = document.querySelector(".menu-btn");
+              const cancelBtn = document.querySelector(".cancel-btn");
+              menuBtn.onclick = ()=>{
+                navbar.classList.add("show");
+                menuBtn.classList.add("hide");
+                body.classList.add("disabled");
+              }
+              cancelBtn.onclick = ()=>{
+                body.classList.remove("disabled");
+                navbar.classList.remove("show");
+                menuBtn.classList.remove("hide");
+              }
+              window.onscroll = ()=>{
+                this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+              }
+            </script>
+           <script src="/typed.js"></script>    
+                 <script>
+                  var type = new Typed('#typed', {
+                    stringsElement:'#typed-strings',
+                    smartBackspace: true,
+                  typeSpeed: 100,
+                  backSpeed:60,
+                  loop:true,
+                  cursorChar: '',
+                  
+                  });
+                  
+                     </script>
+            <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+         <script src="/videojs.rotate.js">
+//   var player = videojs('my-video');
+ 
+//  player.hlsQualitySelector();
+//  var videojs = require('video.js');
+ 
+//  // The actual plugin function is exported by this module, but it is also
+//  // attached to the `Player.prototype`; so, there is no need to assign it
+//  // to a variable.
+//  require('videojs-hls-quality-selector');
+  
+//  var player = videojs('my-video');
+  
+//  player.hlsQualitySelector({
+//      displayCurrentQuality: true,
+//  });
+ 
+
+         </script>    
+         <script src="/videoplayer.js"></script>   
+         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-quality-levels/2.1.0/videojs-contrib-quality-levels.min.js" integrity="sha512-IcVOuK95FI0jeody1nzu8wg/n+PtQtxy93L8irm+TwKfORimcB2g4GSHdc0CvsK8gt1yJSbO6fCtZggBvLDDAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+         <!-- <script src="https://cdn.sc.gl/videojs-hotkeys/0.2/videojs.hotkeys.min.js"></script> -->
+<script>
+  let player = videojs('videoPlayer');
+
+let qualityLevels = player.qualityLevels();
+
+// disable quality levels with less than 720 horizontal lines of resolution when added
+// to the list.
+qualityLevels.on('addqualitylevel', function(event) {
+  let qualityLevel = event.qualityLevel;
+
+  if (qualityLevel.height >= 720) {
+    qualityLevel.enabled = true;
+  } else {
+    qualityLevel.enabled = false;
+  }
+});
+
+// example function that will toggle quality levels between SD and HD, defining and HD
+// quality as having 720 horizontal lines of resolution or more
+let toggleQuality = (function() {
+  let enable720 = true;
+
+  return function() {
+    for (var i = 0; i < qualityLevels.length; i++) {
+      let qualityLevel = qualityLevels[i];
+      if (qualityLevel.height >= 720) {
+        qualityLevel.enabled = enable720;
+      } else {
+        qualityLevel.enabled = !enable720;
+      }
+    }
+    enable720 = !enable720;
+  };
+})();
+
+let currentSelectedQualityLevelIndex = qualityLevels.selectedIndex; // -1 if no level selected
+
+// Listen to change events for when the player selects a new quality level
+qualityLevels.on('change', function() {
+  console.log('Quality Level changed!');
+  console.log('New level:', qualityLevels[qualityLevels.selectedIndex]);
+});
+
+</script>
    <script>
-   var renderer, scene, camera, composer, circle, skelet, particle;
 
-window.onload = function() {
-  init();
-  animate();
-}
+  function rotate(){
+var dimension = 0 ;
 
-function init() {
-  renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-  renderer.setPixelRatio((window.devicePixelRatio) ? window.devicePixelRatio : 1);
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  renderer.autoClear = false;
-  renderer.setClearColor(0x000000, 0.0);
-  document.getElementById('canvas').appendChild(renderer.domElement);
+var rotateLeftButton = createButton('&#8635;');
+var rotateLeftButton = createButton('&#8634;');
 
-  scene = new THREE.Scene();
+function createButton(){
+    var button =document.createElement('button');
+button.classList.add('vjs-menu-button');
+button.innerHTML = '&#8635;';
+button.style.fontSize = '1.8em';
+return button;
 
-  camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
-  camera.position.z = 400;
-  scene.add(camera);
-
-  circle = new THREE.Object3D();
-  skelet = new THREE.Object3D();
-  particle = new THREE.Object3D();
-
-  scene.add(circle);
-  scene.add(skelet);
-  scene.add(particle);
-
-  var geometry = new THREE.TetrahedronGeometry(2, 0);
-  var geom = new THREE.IcosahedronGeometry(7, 1);
-  var geom2 = new THREE.IcosahedronGeometry(15, 1);
-
-  var material = new THREE.MeshPhongMaterial({
-    color: 0xffffff,
-    shading: THREE.FlatShading
-  });
-
-  for (var i = 0; i < 1000; i++) {
-    var mesh = new THREE.Mesh(geometry, material);
-    mesh.position.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).normalize();
-    mesh.position.multiplyScalar(90 + (Math.random() * 700));
-    mesh.rotation.set(Math.random() * 2, Math.random() * 2, Math.random() * 2);
-    particle.add(mesh);
+  }
   }
 
-  var mat = new THREE.MeshPhongMaterial({
-    color: 0xffffff,
-    shading: THREE.FlatShading
-  });
-
-  var mat2 = new THREE.MeshPhongMaterial({
-    color: 0xffffff,
-    wireframe: true,
-    side: THREE.DoubleSide
-
-  });
-
-  var planet = new THREE.Mesh(geom, mat);
-  planet.scale.x = planet.scale.y = planet.scale.z = 16;
-  circle.add(planet);
-
-  var planet2 = new THREE.Mesh(geom2, mat2);
-  planet2.scale.x = planet2.scale.y = planet2.scale.z = 10;
-  skelet.add(planet2);
-
-  var ambientLight = new THREE.AmbientLight(0x999999 );
-  scene.add(ambientLight);
-  
-  var lights = [];
-lights[0] = new THREE.DirectionalLight( 0xffffff, 1 );
-lights[0].position.set( 1, 0, 0 );
-lights[1] = new THREE.DirectionalLight( 0x11E8BB, 1 );
-lights[1].position.set( 0.75, 1, 0.5 );
-lights[2] = new THREE.DirectionalLight( 0x8200C9, 1 );
-lights[2].position.set( -0.75, -1, 0.5 );
-scene.add( lights[0] );
-scene.add( lights[1] );
-scene.add( lights[2] );
-  
-
-  window.addEventListener('resize', onWindowResize, false);
-
-};
-
-function onWindowResize() {
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
-}
-
-function animate() {
-  requestAnimationFrame(animate);
-
-  particle.rotation.x += 0.0000;
-  particle.rotation.y -= 0.0040;
-  circle.rotation.x -= 0.0020;
-  circle.rotation.y -= 0.0030;
-  skelet.rotation.x -= 0.0010;
-//   skelet.rotation.y += 0.0020;
-  skelet.rotation.y += 0.0020;
-  renderer.clear();
-
-  renderer.render( scene, camera )
-};
-
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
+  videojs.registerPlugin('rotate',rotate)
+   </script>      
 </body>
 </html>
